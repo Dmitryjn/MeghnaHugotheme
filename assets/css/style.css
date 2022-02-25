@@ -8,12 +8,12 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
+  background-color: #433541;
   color: #737f8a;
 }
 
 body {
-  background-color: #353b43;
+  background-color: #433540;
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
@@ -219,10 +219,10 @@ a:hover {
 }
 
 .btn-main {
-  background: #57cbcc;
-  color: #fff;
+  background: #e23232;
+  color: rgb(255, 255, 255);
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
   padding: 10px 35px;
   text-transform: uppercase;
@@ -478,7 +478,7 @@ a:hover {
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }
 
 @media (max-width: 480px) {
@@ -489,8 +489,8 @@ a:hover {
 
 .hero-area .block p {
   color: #fff;
-  font-size: 20px;
-  width: 70%;
+  font-size: 30px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -643,13 +643,15 @@ a:hover {
 }
 
 .call-to-action h2 {
+  font-size: 35px;
+  font-family:cursive;
   font-weight: 700;
-  color: #444;
+  color: rgb(255, 254, 254);
 }
 
 .call-to-action p {
-  font-size: 16px;
-  color: #666;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
 }
 
 .call-to-action .btn-main {
@@ -957,7 +959,6 @@ a:hover {
   margin-bottom: 10px;
   font-size: 50px;
 }
-
 /*=================================================================
   Services section 2
 ==================================================================*/
@@ -965,7 +966,7 @@ a:hover {
   border: 1px solid #eee;
   margin-bottom: 30px;
   padding: 50px 20px;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; 
 }
 
 .service-2 .service-item:hover {
